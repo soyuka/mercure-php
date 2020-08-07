@@ -1,0 +1,4 @@
+mercure:
+    enable_profiler: '%kernel.debug%'
+    # disabling mercure hub
+    hubs: ~

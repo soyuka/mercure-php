@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+  php:
+    build: .
+    volumes: 
+      - .:/var/www/mercure:rw
+    ports:
+      - "8080:80"
